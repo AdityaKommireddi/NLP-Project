@@ -1,0 +1,317 @@
+{
+  "understeer": {
+    "name": "Understeer (Car not turning enough)",
+    "description": "The front tires lose grip before the rears, causing the car to push wide in corners. The car doesn't respond to steering input as much as you want.",
+    "symptoms": [
+      "car not turning",
+      "pushing wide",
+      "front end sliding",
+      "missing apex",
+      "can't hit apex"
+    ],
+    "adjustments": [
+      {
+        "parameter": "front_wing",
+        "change": "+2",
+        "reason": "Increases front downforce and front-end grip",
+        "priority": 1
+      },
+      {
+        "parameter": "rear_wing",
+        "change": "-1",
+        "reason": "Reduces rear downforce to shift balance forward",
+        "priority": 2
+      },
+      {
+        "parameter": "differential_off_throttle",
+        "change": "-5",
+        "reason": "Allows more rotation on corner entry",
+        "priority": 3
+      },
+      {
+        "parameter": "front_suspension",
+        "change": "-3",
+        "reason": "Softer front suspension increases mechanical grip",
+        "priority": 4
+      },
+      {
+        "parameter": "front_anti_roll_bar",
+        "change": "-2",
+        "reason": "Reduces stiffness for more front grip",
+        "priority": 5
+      },
+      {
+        "parameter": "front_camber",
+        "change": "-0.2",
+        "reason": "More negative camber improves cornering grip",
+        "priority": 6
+      }
+    ],
+    "explanation_template": "To fix understeer, we need to add more front grip or reduce rear grip. I've increased the front wing by {fw_change} to give you more front downforce. I've also {other_changes}. This should help the car turn in better."
+  },
+  "oversteer": {
+    "name": "Oversteer (Rear sliding out)",
+    "description": "The rear tires lose grip before the fronts, causing the back end to slide out. The car feels nervous and twitchy, especially on corner exit.",
+    "symptoms": [
+      "rear sliding",
+      "back end loose",
+      "spinning",
+      "tail happy",
+      "rear stepping out",
+      "twitchy"
+    ],
+    "adjustments": [
+      {
+        "parameter": "rear_wing",
+        "change": "+2",
+        "reason": "Increases rear downforce and stability",
+        "priority": 1
+      },
+      {
+        "parameter": "front_wing",
+        "change": "-1",
+        "reason": "Reduces front grip to balance the car",
+        "priority": 2
+      },
+      {
+        "parameter": "differential_on_throttle",
+        "change": "+5",
+        "reason": "Locks rear wheels more for better traction",
+        "priority": 3
+      },
+      {
+        "parameter": "rear_suspension",
+        "change": "-3",
+        "reason": "Softer rear gives more mechanical grip",
+        "priority": 4
+      },
+      {
+        "parameter": "rear_anti_roll_bar",
+        "change": "-2",
+        "reason": "Reduces stiffness for more rear traction",
+        "priority": 5
+      },
+      {
+        "parameter": "rear_camber",
+        "change": "+0.2",
+        "reason": "Less negative camber improves exit traction",
+        "priority": 6
+      }
+    ],
+    "explanation_template": "To fix oversteer, we need more rear stability. I've increased the rear wing by {rw_change} for more rear downforce. I've also {other_changes}. This should stabilize the rear end."
+  },
+  "tire_overheating": {
+    "name": "Tire Overheating",
+    "description": "Tires getting too hot and losing grip. Can cause both understeer and oversteer depending on which tires overheat.",
+    "symptoms": [
+      "tires overheating",
+      "losing grip",
+      "tires too hot",
+      "temperature too high",
+      "blistering"
+    ],
+    "adjustments": [
+      {
+        "parameter": "tire_pressure_front",
+        "change": "+0.5",
+        "reason": "Higher pressure reduces tire temperature",
+        "priority": 1,
+        "condition": "front_overheating"
+      },
+      {
+        "parameter": "tire_pressure_rear",
+        "change": "+0.5",
+        "reason": "Higher pressure reduces tire temperature",
+        "priority": 1,
+        "condition": "rear_overheating"
+      },
+      {
+        "parameter": "front_camber",
+        "change": "+0.2",
+        "reason": "Less negative camber reduces tire stress",
+        "priority": 2,
+        "condition": "front_overheating"
+      },
+      {
+        "parameter": "rear_camber",
+        "change": "+0.2",
+        "reason": "Less negative camber reduces tire stress",
+        "priority": 2,
+        "condition": "rear_overheating"
+      },
+      {
+        "parameter": "front_wing",
+        "change": "-1",
+        "reason": "Less downforce means less tire load and heat",
+        "priority": 3,
+        "condition": "front_overheating"
+      },
+      {
+        "parameter": "rear_wing",
+        "change": "-1",
+        "reason": "Less downforce means less tire load and heat",
+        "priority": 3,
+        "condition": "rear_overheating"
+      }
+    ],
+    "explanation_template": "Your tires are overheating. I've increased tire pressures by {pressure_change} PSI to help cool them down. I've also {other_changes}. Try to be smoother with steering and throttle inputs."
+  },
+  "tire_wear": {
+    "name": "Excessive Tire Wear",
+    "description": "Tires degrading too quickly over a race stint.",
+    "symptoms": [
+      "tires wearing",
+      "tire degradation",
+      "tires going off",
+      "losing grip over time",
+      "tire life"
+    ],
+    "adjustments": [
+      {
+        "parameter": "tire_pressure_front",
+        "change": "+1.0",
+        "reason": "Reduces tire contact patch and wear rate",
+        "priority": 1
+      },
+      {
+        "parameter": "tire_pressure_rear",
+        "change": "+1.0",
+        "reason": "Reduces tire contact patch and wear rate",
+        "priority": 1
+      },
+      {
+        "parameter": "front_camber",
+        "change": "+0.3",
+        "reason": "Less aggressive camber reduces wear",
+        "priority": 2
+      },
+      {
+        "parameter": "rear_camber",
+        "change": "+0.3",
+        "reason": "Less aggressive camber reduces wear",
+        "priority": 2
+      },
+      {
+        "parameter": "front_toe",
+        "change": "towards_0",
+        "reason": "Less toe reduces scrubbing and wear",
+        "priority": 3
+      }
+    ],
+    "explanation_template": "To reduce tire wear, I've increased tire pressures and made the geometry less aggressive. This will extend tire life but you might lose a bit of peak grip. Drive smoothly to maximize tire life."
+  },
+  "poor_balance": {
+    "name": "Poor Balance (Car feeling unstable)",
+    "description": "Car doesn't feel planted or predictable. Can be a combination of understeer and oversteer at different parts of the corner.",
+    "symptoms": [
+      "car unstable",
+      "unpredictable",
+      "balance off",
+      "car feels weird",
+      "inconsistent"
+    ],
+    "adjustments": [
+      {
+        "parameter": "differential_on_throttle",
+        "change": "+5",
+        "reason": "More stability on power",
+        "priority": 1
+      },
+      {
+        "parameter": "differential_off_throttle",
+        "change": "+5",
+        "reason": "More stability on entry",
+        "priority": 2
+      },
+      {
+        "parameter": "front_suspension",
+        "change": "+2",
+        "reason": "Stiffer front for more responsiveness",
+        "priority": 3
+      },
+      {
+        "parameter": "rear_suspension",
+        "change": "+2",
+        "reason": "Stiffer rear for more control",
+        "priority": 3
+      },
+      {
+        "parameter": "front_anti_roll_bar",
+        "change": "+1",
+        "reason": "Reduces body roll",
+        "priority": 4
+      },
+      {
+        "parameter": "rear_anti_roll_bar",
+        "change": "+1",
+        "reason": "Reduces body roll",
+        "priority": 4
+      }
+    ],
+    "explanation_template": "To improve overall balance, I've made the car more stable by adjusting the differential and stiffening the suspension slightly. The car should feel more predictable now."
+  },
+  "bottoming_out": {
+    "name": "Bottoming Out (Car hitting the ground)",
+    "description": "Car's floor hitting the track surface over bumps or at high speed, causing loss of control and damage.",
+    "symptoms": [
+      "bottoming",
+      "hitting ground",
+      "sparks",
+      "car bouncing"
+    ],
+    "adjustments": [
+      {
+        "parameter": "front_ride_height",
+        "change": "+2",
+        "reason": "Raises front of car to prevent contact",
+        "priority": 1
+      },
+      {
+        "parameter": "rear_ride_height",
+        "change": "+2",
+        "reason": "Raises rear of car to prevent contact",
+        "priority": 1
+      },
+      {
+        "parameter": "front_suspension",
+        "change": "+3",
+        "reason": "Stiffer suspension resists bottoming",
+        "priority": 2
+      },
+      {
+        "parameter": "rear_suspension",
+        "change": "+3",
+        "reason": "Stiffer suspension resists bottoming",
+        "priority": 2
+      }
+    ],
+    "explanation_template": "You're bottoming out. I've raised the ride height by {rh_change}mm and stiffened the suspension. You'll lose a bit of downforce but the car will be more stable over bumps."
+  },
+  "brake_locking": {
+    "name": "Brake Locking (Wheels locking under braking)",
+    "description": "Wheels lock up under braking, causing flat spots and loss of control.",
+    "symptoms": [
+      "wheels locking",
+      "front locking",
+      "rear locking",
+      "brake lockup",
+      "flat spotting"
+    ],
+    "adjustments": [
+      {
+        "parameter": "brake_pressure",
+        "change": "-5",
+        "reason": "Reduces overall braking force",
+        "priority": 1
+      },
+      {
+        "parameter": "brake_bias",
+        "change": "adjust_based_on_end",
+        "reason": "Shifts bias away from locking end",
+        "priority": 2,
+        "note": "If front locks, reduce bias. If rear locks, increase bias."
+      }
+    ],
+    "explanation_template": "To prevent brake locking, I've reduced brake pressure by {pressure_change}% and adjusted brake bias. You'll need to brake a bit earlier but with more control."
+  }
+}

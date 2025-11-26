@@ -1,0 +1,198 @@
+{
+  "aerodynamics": {
+    "name": "Aerodynamics",
+    "components": {
+      "front_wing": {
+        "name": "Front Wing (FW)",
+        "description": "Controls the downforce at the front of the car. Higher values create more downforce, increasing front-end grip and reducing understeer. Lower values reduce drag but may cause understeer in corners.",
+        "increase_effect": "More front grip, less understeer, slightly more drag, better turn-in",
+        "decrease_effect": "Less front grip, more understeer, less drag, higher top speed",
+        "typical_range": "1-50",
+        "adjustment_increment": "1-3 clicks"
+      },
+      "rear_wing": {
+        "name": "Rear Wing (RW)",
+        "description": "Controls the downforce at the rear of the car. Higher values increase rear stability and traction out of corners but add drag. Lower values reduce drag for higher speeds but can cause oversteer.",
+        "increase_effect": "More rear stability, less oversteer, better traction, more drag",
+        "decrease_effect": "Less rear grip, more oversteer, less drag, higher top speed",
+        "typical_range": "1-50",
+        "adjustment_increment": "1-3 clicks"
+      }
+    },
+    "general_advice": "Aerodynamics is the primary balance tool. High-downforce tracks (Monaco, Hungary, Singapore) need high wings (35-45). Low-downforce tracks (Monza, Spa) need low wings (10-20). Use FW/RW ratio to balance understeer and oversteer."
+  },
+  "transmission": {
+    "name": "Transmission",
+    "components": {
+      "differential_on_throttle": {
+        "name": "Differential On Throttle (Diff On)",
+        "description": "Controls how much the rear wheels lock together when accelerating. Higher values improve traction out of corners but can cause understeer. Lower values allow more rotation but may cause wheelspin.",
+        "increase_effect": "Better traction, less wheelspin, more mid-corner understeer",
+        "decrease_effect": "More rotation, easier to turn, possible wheelspin, potential oversteer",
+        "typical_range": "50-100%",
+        "adjustment_increment": "5-10%"
+      },
+      "differential_off_throttle": {
+        "name": "Differential Off Throttle (Diff Off)",
+        "description": "Controls rear wheel locking when coasting or braking. Higher values stabilize the car but reduce turn-in. Lower values improve rotation and corner entry.",
+        "increase_effect": "More stable under braking, less rotation, understeer on entry",
+        "decrease_effect": "Better turn-in, more rotation, potential instability under braking",
+        "typical_range": "50-100%",
+        "adjustment_increment": "5-10%"
+      }
+    },
+    "general_advice": "Differential controls corner exit traction and entry rotation. Tight tracks benefit from lower diff settings for rotation. Fast tracks need higher settings for stability."
+  },
+  "suspension": {
+    "name": "Suspension",
+    "components": {
+      "front_suspension": {
+        "name": "Front Suspension (FS)",
+        "description": "Controls front spring stiffness. Lower values (softer) provide more mechanical grip over bumps. Higher values (stiffer) improve responsiveness on smooth tracks.",
+        "increase_effect": "Stiffer front, less grip over bumps, more responsive, understeer",
+        "decrease_effect": "Softer front, more grip over bumps, less responsive, less understeer",
+        "typical_range": "1-40",
+        "adjustment_increment": "2-5 clicks"
+      },
+      "rear_suspension": {
+        "name": "Rear Suspension (RS)",
+        "description": "Controls rear spring stiffness. Softer provides traction, stiffer improves responsiveness.",
+        "increase_effect": "Stiffer rear, less traction over bumps, more responsive, oversteer",
+        "decrease_effect": "Softer rear, more traction, better exit grip, less oversteer",
+        "typical_range": "1-40",
+        "adjustment_increment": "2-5 clicks"
+      },
+      "front_anti_roll_bar": {
+        "name": "Front Anti-Roll Bar (FARB)",
+        "description": "Controls body roll at the front during cornering. Higher values reduce roll and increase responsiveness but can reduce grip.",
+        "increase_effect": "Less body roll, more responsive, potential understeer",
+        "decrease_effect": "More mechanical grip, softer turn-in, less understeer",
+        "typical_range": "1-20",
+        "adjustment_increment": "1-3 clicks"
+      },
+      "rear_anti_roll_bar": {
+        "name": "Rear Anti-Roll Bar (RARB)",
+        "description": "Controls body roll at the rear during cornering.",
+        "increase_effect": "Less body roll, more responsive, potential oversteer",
+        "decrease_effect": "More mechanical grip, better traction, less oversteer",
+        "typical_range": "1-20",
+        "adjustment_increment": "1-3 clicks"
+      },
+      "front_ride_height": {
+        "name": "Front Ride Height (FRH)",
+        "description": "Distance between front of car and ground. Lower increases downforce but risks bottoming out.",
+        "increase_effect": "Less downforce, higher ride, safer over bumps, understeer",
+        "decrease_effect": "More downforce, better aero efficiency, risk of bottoming",
+        "typical_range": "20-70mm",
+        "adjustment_increment": "1-3mm"
+      },
+      "rear_ride_height": {
+        "name": "Rear Ride Height (RRH)",
+        "description": "Distance between rear of car and ground.",
+        "increase_effect": "Less downforce, higher ride, safer over bumps, oversteer",
+        "decrease_effect": "More downforce, better traction, risk of bottoming",
+        "typical_range": "20-70mm",
+        "adjustment_increment": "1-3mm"
+      }
+    },
+    "general_advice": "Suspension controls mechanical grip and ride comfort. Bumpy tracks (Singapore, Baku, Monaco) need softer suspension. Smooth tracks (Bahrain, Abu Dhabi) can use stiffer settings."
+  },
+  "suspension_geometry": {
+    "name": "Suspension Geometry",
+    "components": {
+      "front_camber": {
+        "name": "Front Camber (FC)",
+        "description": "Angle of front wheels. Negative camber (tilted inward at top) improves cornering grip but reduces straight-line grip.",
+        "increase_effect": "More negative camber, better cornering grip, worse straight-line",
+        "decrease_effect": "Less negative camber, better acceleration/braking, worse cornering",
+        "typical_range": "-2.5 to -4.0 degrees",
+        "adjustment_increment": "0.1 degrees"
+      },
+      "rear_camber": {
+        "name": "Rear Camber (RC)",
+        "description": "Angle of rear wheels.",
+        "increase_effect": "More negative camber, better cornering grip, traction loss",
+        "decrease_effect": "Less negative camber, better traction out of corners",
+        "typical_range": "-1.0 to -2.5 degrees",
+        "adjustment_increment": "0.1 degrees"
+      },
+      "front_toe": {
+        "name": "Front Toe (FTO)",
+        "description": "Angle of front wheels viewed from above. Positive (toe-in) stabilizes, negative (toe-out) improves turn-in.",
+        "increase_effect": "More toe-in, stable at high speed, understeer, tire wear",
+        "decrease_effect": "More toe-out, aggressive turn-in, instability",
+        "typical_range": "-0.10 to +0.20 degrees",
+        "adjustment_increment": "0.01-0.05 degrees"
+      },
+      "rear_toe": {
+        "name": "Rear Toe In (RTI)",
+        "description": "Usually positive (toe-in) for stability.",
+        "increase_effect": "More stable, less oversteer, tire wear",
+        "decrease_effect": "More responsive, potential oversteer",
+        "typical_range": "0.00 to +0.30 degrees",
+        "adjustment_increment": "0.01-0.05 degrees"
+      }
+    },
+    "general_advice": "Geometry fine-tunes handling characteristics. More negative camber for twisty tracks. Neutral settings for high-speed circuits. Geometry changes are small but impactful."
+  },
+  "brakes": {
+    "name": "Brakes",
+    "components": {
+      "brake_bias": {
+        "name": "Brake Bias",
+        "description": "Distribution of braking force between front and rear. Higher values send more force to front wheels.",
+        "increase_effect": "More front braking, stable but potential understeer",
+        "decrease_effect": "More rear braking, rotation but potential instability",
+        "typical_range": "50-65%",
+        "adjustment_increment": "1-2%"
+      },
+      "brake_pressure": {
+        "name": "Brake Pressure",
+        "description": "Overall braking force. Higher values give more initial bite.",
+        "increase_effect": "Stronger braking, shorter distances, lockup risk",
+        "decrease_effect": "Softer braking, safer, longer distances",
+        "typical_range": "90-110%",
+        "adjustment_increment": "2-5%"
+      }
+    },
+    "general_advice": "Brakes affect corner entry. High-braking tracks (Montreal, Baku) may need higher pressure. Brake bias around 56-60% is typical. Adjust based on lockup tendencies."
+  },
+  "tyres": {
+    "name": "Tyre Pressures",
+    "components": {
+      "front_right_pressure": {
+        "name": "Front Right Tyre Pressure (FRT)",
+        "description": "Pressure in front right tyre. Affects grip, temperature, and wear.",
+        "increase_effect": "Less grip, cooler temps, less wear, overheating protection",
+        "decrease_effect": "More grip, hotter temps, more wear, better feel",
+        "typical_range": "19.0-28.0 PSI",
+        "adjustment_increment": "0.5 PSI"
+      },
+      "front_left_pressure": {
+        "name": "Front Left Tyre Pressure (FLT)",
+        "description": "Pressure in front left tyre.",
+        "increase_effect": "Less grip, cooler temps, less wear",
+        "decrease_effect": "More grip, hotter temps, more wear",
+        "typical_range": "19.0-28.0 PSI",
+        "adjustment_increment": "0.5 PSI"
+      },
+      "rear_right_pressure": {
+        "name": "Rear Right Tyre Pressure (RRT)",
+        "description": "Pressure in rear right tyre.",
+        "increase_effect": "Less traction, cooler temps, less wear",
+        "decrease_effect": "More traction, hotter temps, more wear",
+        "typical_range": "19.0-26.0 PSI",
+        "adjustment_increment": "0.5 PSI"
+      },
+      "rear_left_pressure": {
+        "name": "Rear Left Tyre Pressure (RLT)",
+        "description": "Pressure in rear left tyre.",
+        "increase_effect": "Less traction, cooler temps, less wear",
+        "decrease_effect": "More traction, hotter temps, more wear",
+        "typical_range": "19.0-26.0 PSI",
+        "adjustment_increment": "0.5 PSI"
+      }
+    },
+    "general_advice": "Tyre pressures balance grip vs temperature management. Lower pressures give more grip but risk overheating. Higher pressures protect from overheating but reduce grip. Hot tracks or high tyre wear tracks need higher pressures. Start with baseline (23-25 front, 21-23 rear) and adjust based on telemetry."
+  }
+}

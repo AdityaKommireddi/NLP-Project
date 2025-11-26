@@ -1,0 +1,380 @@
+{
+  "Australia": {
+    "official_name": "Melbourne Grand Prix Circuit",
+    "country": "Australia",
+    "track_characteristics": "Fast street circuit with mix of high-speed corners and tight chicanes. Bumpy surface requires balanced setup.",
+    "key_corners": [
+      "Turn 1: Heavy braking zone, late apex",
+      "Turn 3: Fast left-hander, carry speed",
+      "Turn 11-12 Chicane: Critical for lap time",
+      "Turn 13: Long right-hander, exit speed crucial"
+    ],
+    "setup_philosophy": "Medium-high downforce, softer suspension for bumps, stable rear for kerb riding",
+    "difficulty": "Medium",
+    "lap_length": "5.278 km",
+    "racing_tips": "Kerb usage is key. Be aggressive on kerbs but watch for car instability. Turn 1 is main overtaking spot."
+  },
+  "China": {
+    "official_name": "Shanghai International Circuit",
+    "country": "China",
+    "track_characteristics": "Mix of very slow and very fast corners. Long back straight requires low drag. Technical first sector.",
+    "key_corners": [
+      "Turn 1: Unique snail corner, multiple lines possible",
+      "Turn 6-7: Critical chicane before long straight",
+      "Turn 13: Tight hairpin, overtaking opportunity",
+      "Turn 14-16: Fast flowing section"
+    ],
+    "setup_philosophy": "Compromise setup - medium-high wing for turns 1-6, then low drag for straight. Stable in slow-speed corners.",
+    "difficulty": "Hard",
+    "lap_length": "5.451 km",
+    "racing_tips": "Turn 1 has multiple lines - outside line is faster but risky. Setup for Turn 1 performance as it makes or breaks lap. DRS crucial on back straight."
+  },
+  "Japan": {
+    "official_name": "Suzuka International Racing Course",
+    "country": "Japan",
+    "track_characteristics": "High-speed flowing circuit with challenging corners. Figure-eight layout with elevation changes. Requires brave, committed driving.",
+    "key_corners": [
+      "Turn 1: Fast sweeping right, crucial corner",
+      "Esses (Turns 3-7): Rapid direction changes",
+      "Spoon Curve: Double-apex left-hander",
+      "130R: Flat-out if setup allows",
+      "Chicane: Final overtaking spot"
+    ],
+    "setup_philosophy": "High downforce for flowing corners, stable aero balance, responsive turn-in. Confidence-inspiring setup needed.",
+    "difficulty": "Very Hard",
+    "lap_length": "5.807 km",
+    "racing_tips": "Rhythm is everything at Suzuka. Build confidence through Esses by nailing Turn 1. Commit to 130R - lift means time loss. Spoon exit determines chicane entry speed."
+  },
+  "Bahrain": {
+    "official_name": "Bahrain International Circuit",
+    "country": "Bahrain",
+    "track_characteristics": "Smooth desert circuit with heavy braking zones. Multiple layouts but GP layout most common. Abrasive surface causes tire wear.",
+    "key_corners": [
+      "Turn 1: Heavy braking from 300+ km/h",
+      "Turn 4: Long right-hander, multiple lines",
+      "Turn 10: Tight right after fast section",
+      "Turn 13: Final corner onto start-finish straight"
+    ],
+    "setup_philosophy": "Medium downforce, strong brakes, manage tire temperatures. Setup for Turn 4 and Turn 10.",
+    "difficulty": "Medium",
+    "lap_length": "5.412 km",
+    "racing_tips": "Turn 1 and Turn 4 are key overtaking spots. Manage tire temps - easy to overheat rears. Turn 10 entry critical for lap time. Run higher tire pressures than usual."
+  },
+  "Saudi Arabia": {
+    "official_name": "Jeddah Corniche Circuit",
+    "country": "Saudi Arabia",
+    "track_characteristics": "Ultra-fast street circuit with blind corners and walls everywhere. Second-fastest track on calendar. Very risky.",
+    "key_corners": [
+      "Turn 1: Blind right-hander",
+      "Turn 4: Fast left kink",
+      "Turn 13: Blind left-hander, technical",
+      "Turn 27: Final blind corner onto massive straight"
+    ],
+    "setup_philosophy": "Low-medium downforce for speed, stable aero, confidence in high-speed corners. Brake stability crucial.",
+    "difficulty": "Very Hard",
+    "lap_length": "6.174 km",
+    "racing_tips": "Learn the blind corners in practice - commit is key. Walls punish mistakes instantly. Focus on carrying minimum speed through corners rather than late braking. Qualify well - overtaking is suicidal."
+  },
+  "Miami": {
+    "official_name": "Miami International Autodrome",
+    "country": "USA",
+    "track_characteristics": "Purpose-built street circuit around stadium. Mix of fast straights and tight chicanes. Bumpy in places.",
+    "key_corners": [
+      "Turn 1: Heavy braking zone after long straight",
+      "Turn 11: Tight hairpin in stadium section",
+      "Turn 14-15: Fast chicane",
+      "Turn 17: Beach chicane, very technical"
+    ],
+    "setup_philosophy": "Medium downforce, slightly soft suspension for bumps, stable in chicanes. Good traction out of slow corners.",
+    "difficulty": "Medium",
+    "lap_length": "5.410 km",
+    "racing_tips": "Turn 1 is main overtaking spot. Stadium section is slow - don't overdrive. Beach chicane at Turn 17 requires precision. Watch for bumps in braking zones."
+  },
+  "Imola": {
+    "official_name": "Autodromo Enzo e Dino Ferrari",
+    "country": "Italy",
+    "track_characteristics": "Old-school circuit with fast flowing corners and limited runoff. Anti-clockwise layout. Very technical and unforgiving.",
+    "key_corners": [
+      "Tamburello: Fast left-hander",
+      "Villeneuve Chicane: Tricky braking zone",
+      "Tosa Hairpin: Key corner for lap time",
+      "Variante Alta: Fast chicane",
+      "Rivazza: Double left-hander onto start-finish"
+    ],
+    "setup_philosophy": "High downforce for flowing nature, stable rear end, precise front end. Car must be confidence-inspiring.",
+    "difficulty": "Hard",
+    "lap_length": "4.909 km",
+    "racing_tips": "No mistakes allowed - gravel traps everywhere. Tosa hairpin exit determines speed through next sector. Qualifying critical as overtaking very difficult. Smooth driving essential."
+  },
+  "Monaco": {
+    "official_name": "Circuit de Monaco",
+    "country": "Monaco",
+    "track_characteristics": "Slowest and tightest circuit. Ultimate driver challenge. No room for error with barriers lining entire track. Low speeds, maximum downforce.",
+    "key_corners": [
+      "Sainte Devote: First corner, overtaking spot",
+      "Massenet: Blind right-hander",
+      "Casino Square: Tricky left-right",
+      "Mirabeau: Tight hairpin",
+      "Nouvelle Chicane: Swimming pool section",
+      "Anthony Noghes: Final corner"
+    ],
+    "setup_philosophy": "Maximum downforce, very soft suspension, extreme steering lock, short gearing. Stability over speed.",
+    "difficulty": "Extreme",
+    "lap_length": "3.337 km",
+    "racing_tips": "Qualifying is everything - race is a procession. Focus on clean lap, no mistakes. Any crash means retirement. Brake early, turn smooth, maximize kerb use. Don't push - survive and you'll score points."
+  },
+  "Spain": {
+    "official_name": "Circuit de Barcelona-Catalunya",
+    "country": "Spain",
+    "track_characteristics": "Well-balanced circuit with mix of all corner types. Smooth surface, good for testing. Requires all-round balanced car.",
+    "key_corners": [
+      "Turn 1-2: Long right-hander",
+      "Turn 3: Fast left into fast right",
+      "Turn 5: Slow left-hander",
+      "Turn 9: Fast right-hander, critical",
+      "Turn 10: Final chicane onto main straight"
+    ],
+    "setup_philosophy": "Balanced setup, medium-high downforce, stable aero platform. No weak points needed.",
+    "difficulty": "Medium-Hard",
+    "lap_length": "4.675 km",
+    "racing_tips": "All-round performance needed. Turn 3 is key for lap time - carry speed. Turn 9 exit determines straight-line speed. Turn 10 chicane can be overtaking spot. Tire management crucial in race."
+  },
+  "Canada": {
+    "official_name": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "track_characteristics": "Semi-permanent street circuit with very long straights and heavy braking. Walls everywhere. Low downforce, strong brakes needed.",
+    "key_corners": [
+      "Turn 1-2: Tight right-left after long straight",
+      "Turn 6-7: Esse section, flows nicely",
+      "Turn 8-9: Hairpin section",
+      "Turn 10: Famous 'Wall of Champions'",
+      "Chicane: Final corner, overtaking spot"
+    ],
+    "setup_philosophy": "Minimum downforce, maximum straight-line speed, very strong brakes. Accept handling compromise for speed.",
+    "difficulty": "Hard",
+    "lap_length": "4.361 km",
+    "racing_tips": "Straights are everything - run skinny wings. Brake incredibly hard for chicanes - brakes will be stressed. Watch for Safety Cars. Final chicane is main overtaking spot. Don't hit Wall of Champions."
+  },
+  "Austria": {
+    "official_name": "Red Bull Ring",
+    "country": "Austria",
+    "track_characteristics": "Short, simple layout but very fast. Only 10 corners. Lots of elevation changes. Aggressive kerb riding rewarded.",
+    "key_corners": [
+      "Turn 1: Tight right-hander uphill",
+      "Turn 3: Fast uphill left-hander, crucial",
+      "Turn 4: Fast right-hander over crest",
+      "Turn 7: Penultimate corner, exit critical",
+      "Turn 10: Final corner onto start-finish"
+    ],
+    "setup_philosophy": "Low-medium downforce, soft suspension for kerbs, good traction. Prioritize Turn 3 and 4 speed.",
+    "difficulty": "Easy-Medium",
+    "lap_length": "4.318 km",
+    "racing_tips": "Very overtaking-friendly - Turn 1 and Turn 3 are DRS zones. Be aggressive on kerbs - purple sausage kerbs give time. Turn 3 determines entire lap. Track limits enforced strictly."
+  },
+  "Silverstone": {
+    "official_name": "Silverstone Circuit",
+    "country": "United Kingdom",
+    "track_characteristics": "Historic high-speed circuit. Many fast sweeping corners require aerodynamic stability. Flowing and fast.",
+    "key_corners": [
+      "Turn 1: Tight right-hander",
+      "Copse: Flat-out if brave",
+      "Maggots-Becketts: Legendary corner complex",
+      "Stowe: Slow corner mid-lap",
+      "Club: Final corner onto Wellington Straight"
+    ],
+    "setup_philosophy": "High downforce for fast corners, very stable aero balance, confidence-inspiring. Mechanical grip less critical than aero.",
+    "difficulty": "Hard",
+    "lap_length": "5.891 km",
+    "racing_tips": "Maggots-Becketts is where lap is won or lost - commit fully. Copse must be flat in qualifying. Stowe is overtaking spot. Weather changes quickly - be ready. High-speed corners are physically demanding."
+  },
+  "Belgium Spa": {
+    "official_name": "Circuit de Spa-Francorchamps",
+    "country": "Belgium",
+    "track_characteristics": "Legendary high-speed circuit with massive elevation changes. Eau Rouge/Raidillon is iconic. Weather unpredictable. Longest lap on calendar.",
+    "key_corners": [
+      "La Source Hairpin: Overtaking spot",
+      "Eau Rouge/Raidillon: Flat-out climb, legendary",
+      "Les Combes: Chicane at top of hill",
+      "Pouhon: Fast sweeping left-hander",
+      "Bus Stop Chicane: Final overtaking spot"
+    ],
+    "setup_philosophy": "Low downforce for Kemmel Straight speed, but enough for fast corners. Balance is crucial. Compromise setup.",
+    "difficulty": "Very Hard",
+    "lap_length": "7.004 km",
+    "racing_tips": "Eau Rouge flat is the goal - setup determines if possible. Weather micromanagement - can rain at one corner and be dry elsewhere. Kemmel Straight is key overtaking zone. Don't overdrive Pouhon. Qualify well - gaps get large."
+  },
+  "Hungary": {
+    "official_name": "Hungaroring",
+    "country": "Hungary",
+    "track_characteristics": "Tight and twisty circuit, often called 'Monaco without walls'. Very difficult to overtake. Requires maximum downforce and mechanical grip.",
+    "key_corners": [
+      "Turn 1: Downhill right-hander, only overtaking spot",
+      "Turn 2: Uphill left-hander",
+      "Turn 4: Slow right-hander",
+      "Turn 11: Slow left-hander",
+      "Turn 12-13-14: Fast final sector"
+    ],
+    "setup_philosophy": "Maximum downforce, soft suspension, extreme rotation. Qualifying setup critical. Sacrifice straight-line speed.",
+    "difficulty": "Hard",
+    "lap_length": "4.381 km",
+    "racing_tips": "Qualify as high as possible - overtaking nearly impossible. Turn 1 is basically only passing spot. Hot temperatures stress tires and driver. Setup for slow corners. Strategy is more important than speed in race."
+  },
+  "Netherlands": {
+    "official_name": "Circuit Zandvoort",
+    "country": "Netherlands",
+    "track_characteristics": "Old-school seaside circuit with banked corners. Narrow track, limited overtaking. Fast and flowing with elevation changes.",
+    "key_corners": [
+      "Turn 1: Tarzan corner, main overtaking spot",
+      "Turn 3: Hugenholtzbocht, banked right",
+      "Turn 7: Scheivlak, fast left-hander",
+      "Turn 10-11-12: Arie Luyendyk chicane, very fast",
+      "Turn 13-14: Banked final corner, full throttle"
+    ],
+    "setup_philosophy": "High downforce for banked corners, stable aero platform. Setup for Turn 3 banking and final corner.",
+    "difficulty": "Hard",
+    "lap_length": "4.259 km",
+    "racing_tips": "Banked corners are unique - take higher line for more speed. Turn 1 only real overtaking spot. Qualify well. Track is narrow - passing nearly impossible. Commit to banked Turn 14 - full throttle rewarded."
+  },
+  "Monza": {
+    "official_name": "Autodromo Nazionale di Monza",
+    "country": "Italy",
+    "track_characteristics": "Fastest track on calendar. Temple of Speed. Very low downforce needed for long straights. Requires slipstreaming in qualifying.",
+    "key_corners": [
+      "Turn 1: First Chicane, heavy braking after slipstream",
+      "Curva Grande: Fast right-hander",
+      "Lesmo 1 and 2: Mid-speed corners",
+      "Ascari Chicane: Technical section",
+      "Parabolica: Long final corner onto start-finish"
+    ],
+    "setup_philosophy": "Minimum downforce, lowest drag possible. Accept poor handling for straight-line speed. Strong brakes essential.",
+    "difficulty": "Medium",
+    "lap_length": "5.793 km",
+    "racing_tips": "Slipstream is everything - tow in qualifying crucial. Run absolute minimum wing - 'Monza wings'. Brakes will be stressed from high-speed braking. Parabolica exit determines start-finish speed. Lots of overtaking opportunities."
+  },
+  "Baku": {
+    "official_name": "Baku City Circuit",
+    "country": "Azerbaijan",
+    "track_characteristics": "Extreme street circuit with narrowest section on calendar and longest straight. Castle section is ultra-tight, then opens to 300+ km/h straight. Walls everywhere.",
+    "key_corners": [
+      "Turn 1: 90-degree right after long straight",
+      "Turn 3: Tight left uphill",
+      "Turn 7: Start of castle section",
+      "Turn 8: Tightest corner in F1",
+      "Turn 16: Right-hander before massive straight"
+    ],
+    "setup_philosophy": "Extreme compromise - low wing for straight, but need downforce for castle section. Monaco-spec corners with Monza-spec straights.",
+    "difficulty": "Very Hard",
+    "lap_length": "6.003 km",
+    "racing_tips": "Two completely different parts of track. Castle section requires precision - any mistake means wall. Straight allows huge slipstream overtakes. Safety Car very likely. Qualify well but race is unpredictable. Be patient."
+  },
+  "Singapore": {
+    "official_name": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "track_characteristics": "Night race under lights. Longest race of the year (2hr limit often hit). Bumpy street circuit, very hot and humid. Extremely physically demanding.",
+    "key_corners": [
+      "Turn 1-2-3: Complex opening section",
+      "Turn 7: Memorial corner, tight right",
+      "Turn 13-14: Singapore Sling chicane",
+      "Turn 18-19: Final chicane section"
+    ],
+    "setup_philosophy": "Maximum downforce, very soft suspension for bumps, strong brakes. Prioritize mechanical grip and stability. Physical endurance setup.",
+    "difficulty": "Extreme",
+    "lap_length": "4.940 km",
+    "racing_tips": "Physically hardest race - hydration critical. Bumps everywhere - smooth driving essential. Safety Car very common. Qualify well - overtaking difficult. Pace yourself - it's a marathon. Wall is always close."
+  },
+  "COTA": {
+    "official_name": "Circuit of the Americas",
+    "country": "USA",
+    "track_characteristics": "Modern purpose-built circuit with best corners from famous tracks. Turn 1 uphill is spectacular. Bumpy in places. Good mix of corner types.",
+    "key_corners": [
+      "Turn 1: Uphill left-hander, very steep",
+      "Turns 3-6: Maggots-Becketts inspired esses",
+      "Turn 11: Tight hairpin mid-lap",
+      "Turns 12-15: Technical infield section",
+      "Turn 19-20: Final corners onto back straight"
+    ],
+    "setup_philosophy": "High downforce for esses, manage bumps with slightly soft suspension. Balance for all corner types. Stable platform needed.",
+    "difficulty": "Hard",
+    "lap_length": "5.513 km",
+    "racing_tips": "Turn 1 is unique - uphill blind apex needs commitment. Esses (3-6) are lap-time critical, flow is key. Bumps can unsettle car badly - be smooth. Turn 11 and Turn 12 are overtaking zones. Back straight allows DRS passes."
+  },
+  "Mexican": {
+    "official_name": "Autodromo Hermanos Rodriguez",
+    "country": "Mexico",
+    "track_characteristics": "High altitude (2,200m) means thin air and low downforce effect. Stadium section is unique. Long straight, tight corners. Altitude affects engines and brakes.",
+    "key_corners": [
+      "Turn 1: Sharp right after long straight",
+      "Turn 3: Tight right-hander",
+      "Turn 4-5-6: Fast esses",
+      "Turn 8-9-10: Stadium section, very tight",
+      "Turn 12: Peraltada, fast final corner"
+    ],
+    "setup_philosophy": "Run more wing than normal (altitude reduces downforce). Setup for slow-speed corners in stadium. Brake cooling critical.",
+    "difficulty": "Medium-Hard",
+    "lap_length": "4.304 km",
+    "racing_tips": "Altitude makes brakes overheat easily - brake early. Run more wing than you think. Turn 1 is huge overtaking spot after long straight. Stadium section is tight and slow - don't overdrive. Engine power reduced by altitude."
+  },
+  "Brazil": {
+    "official_name": "Autodromo Jose Carlos Pace (Interlagos)",
+    "country": "Brazil",
+    "track_characteristics": "Anti-clockwise circuit with elevation changes and passionate crowd. Often wet race. Technical and challenging. Bumpy in places.",
+    "key_corners": [
+      "Turn 1: Tight right-hander, main overtaking spot",
+      "Senna S: Turns 2-3, fast esses",
+      "Turn 4 (Descida do Lago): Downhill left",
+      "Turn 8-9 (Laranjinha): Fast left-right",
+      "Turn 12 (Junção): Blind right uphill onto start-finish"
+    ],
+    "setup_philosophy": "Medium-high downforce, setup for elevation changes, soft suspension for bumps. Rain setup often needed.",
+    "difficulty": "Hard",
+    "lap_length": "4.309 km",
+    "racing_tips": "Weather unpredictable - rain common. Turn 1 is massive overtaking zone. Senna S needs commitment. Elevation makes car difficult to read. Anti-clockwise means unusual forces on driver. Passionate crowd creates incredible atmosphere."
+  },
+  "Las Vegas": {
+    "official_name": "Las Vegas Street Circuit",
+    "country": "USA",
+    "track_characteristics": "Night race on Las Vegas Strip. Ultra-fast with long straights and slow corners. Very cold temperatures (for F1). Low grip surface initially. Spectacular setting.",
+    "key_corners": [
+      "Turn 1: Tight right after long straight",
+      "Turn 3: Slow right-hand hairpin",
+      "Turn 5-6-7: MSG corners, technical section",
+      "Turn 14: Final corner onto massive straight"
+    ],
+    "setup_philosophy": "Low downforce for straights, setup for cold temperatures. Strong brakes. Accept poor slow-corner balance for straight speed.",
+    "difficulty": "Medium",
+    "lap_length": "6.201 km",
+    "racing_tips": "Cold temperatures make tire warm-up critical. Low grip surface early in weekend. Straight-line speed is everything. Turn 1 and Turn 3 are main overtaking spots. Qualify well but overtaking possible. Manage tire temperatures in cold."
+  },
+  "Qatar": {
+    "official_name": "Lusail International Circuit",
+    "country": "Qatar",
+    "track_characteristics": "Newest circuit on calendar (added 2021, night race 2023 onwards). Fast and flowing with long corners. Very physically demanding. Hot conditions.",
+    "key_corners": [
+      "Turn 1: Medium-speed right-hander",
+      "Turn 2-3-4: Fast flowing section",
+      "Turn 6: Long left-hander, multiple lines",
+      "Turn 12-13-14: Complex of corners",
+      "Turn 16: Final corner onto main straight"
+    ],
+    "setup_philosophy": "Medium-high downforce for long corners, stable aero platform. Manage tire temperatures. Physical endurance setup.",
+    "difficulty": "Hard",
+    "lap_length": "5.380 km",
+    "racing_tips": "Long corners are physically exhausting. Manage tire temperatures carefully. Multiple racing lines available. Turn 1 is main overtaking spot. Hot conditions stress driver and car. Smooth driving essential for tire life. Night race adds difficulty."
+  },
+  "Abu dhabi": {
+    "official_name": "Yas Marina Circuit",
+    "country": "UAE",
+    "track_characteristics": "Twilight race under stunning setting. Mix of slow and fast corners. Unique hotel section. Final race of season so championship drama common.",
+    "key_corners": [
+      "Turn 1: Tight right-hander",
+      "Turns 5-6-7: Fast chicane complex",
+      "Turn 8-9: Hotel section, tight and technical",
+      "Turn 11-12-13-14: Long flowing section",
+      "Turn 20-21: Final chicane onto main straight"
+    ],
+    "setup_philosophy": "Balanced setup, medium downforce. Good in slow and fast corners. Stable in hotel section. All-round performance needed.",
+    "difficulty": "Medium",
+    "lap_length": "5.281 km",
+    "racing_tips": "Turn 1 is main overtaking zone. Hotel section is unique - visibility tricky with day-to-night transition. Back straight allows DRS passes. Final chicane is technical. Championship pressure often factors in - mental game important."
+  }
+}

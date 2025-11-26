@@ -1,0 +1,95 @@
+Max Verstappen is a Dutch racing driver born on September 30, 1997. He drives for Red Bull Racing with car number 1. He is a four-time Formula One World Champion, winning titles in 2021, 2022, 2023, and 2024. His first Formula One victory was at the 2016 Spanish Grand Prix when he became the youngest ever race winner at 18 years old.
+
+Lewis Hamilton is a British racing driver born on January 7, 1985. He drives for Mercedes-AMG Petronas with car number 44. He is a seven-time Formula One World Champion (2008, 2014, 2015, 2017, 2018, 2019, 2020), tied with Michael Schumacher for the most championships in F1 history. He has over 100 race wins and 100 pole positions.
+
+Charles Leclerc is a Monégasque racing driver born on October 16, 1997. He drives for Scuderia Ferrari with car number 16. He joined Ferrari in 2019 and has won multiple Formula One races. He is known for his raw speed and qualifying pace.
+
+Sergio Perez is a Mexican racing driver born on January 26, 1990. He drives for Red Bull Racing with car number 11 as Max Verstappen's teammate. He won his first Formula One race at the 2020 Sakhir Grand Prix.
+
+Lando Norris is a British racing driver born on November 13, 1999. He drives for McLaren Racing with car number 4. He made his F1 debut in 2019 and is known for his consistency and racecraft.
+
+Oscar Piastri is an Australian racing driver born on April 6, 2001. He drives for McLaren Racing with car number 81. He is a rookie who joined McLaren in 2023 and has already shown impressive performances.
+
+George Russell is a British racing driver born on February 15, 1998. He drives for Mercedes-AMG Petronas with car number 63. He joined Mercedes in 2022 alongside Lewis Hamilton and won his first race at the 2022 Brazilian Grand Prix.
+
+Fernando Alonso is a Spanish racing driver born on July 29, 1981. He drives for Aston Martin F1 Team with car number 14. He is a two-time Formula One World Champion (2005, 2006) and one of the most experienced drivers in F1 history.
+
+Red Bull Racing is an Austrian Formula One team based in Milton Keynes, United Kingdom. They have won multiple Constructors' Championships and are currently the most dominant team. Their team principal is Christian Horner.
+
+Mercedes-AMG Petronas is a German-based Formula One team that dominated the hybrid era from 2014-2020. Their team principal is Toto Wolff. They have won eight consecutive Constructors' Championships.
+
+Scuderia Ferrari is the racing team of Ferrari, the oldest and most iconic team in Formula One history. They are based in Maranello, Italy. Ferrari has won 16 Constructors' Championships.
+
+McLaren Racing is a British Formula One team founded in 1963. They are based in Woking, United Kingdom. McLaren has won 8 Constructors' Championships and is one of the most successful teams in F1 history.
+
+Aston Martin F1 Team is a British Formula One team based in Silverstone. They compete with green livery and have been improving their performance in recent seasons.
+
+DRS (Drag Reduction System) is an adjustable rear wing system that reduces aerodynamic drag. It can only be used in designated DRS zones when a driver is within one second of the car ahead during a race. It provides approximately 10-12 km/h speed advantage on straights.
+
+ERS (Energy Recovery System) is a hybrid power unit component that recovers energy from braking and exhaust heat. It consists of two Motor Generator Units: MGU-K (kinetic) and MGU-H (heat). Drivers can deploy stored electrical energy for extra power.
+
+Formula One cars use 1.6-liter V6 turbocharged hybrid power units that produce approximately 1000 horsepower combined from the internal combustion engine and electric motor. They can reach top speeds of over 350 km/h (217 mph).
+
+Formula One uses a points system where the winner receives 25 points, second place gets 18 points, third gets 15 points, and points continue down to 10th place which receives 1 point. An additional point is awarded for the fastest lap if the driver finishes in the top 10.
+
+Pirelli is the official tire supplier for Formula One. They provide five dry tire compounds (C1-C5 from hardest to softest), intermediate tires for damp conditions, and full wet tires for heavy rain. Teams must use at least two different compounds during a dry race.
+
+The Monaco Grand Prix is held on the streets of Monte Carlo and is considered the most prestigious race in Formula One. The circuit is extremely narrow with tight corners and barriers close to the track. Overtaking is very difficult, making qualifying position crucial.
+
+The Belgian Grand Prix is held at the Circuit de Spa-Francorchamps, known for its high-speed nature and unpredictable weather. The famous Eau Rouge and Raidillon complex is one of the most iconic corners in motorsport.
+
+The British Grand Prix is held at Silverstone Circuit, a high-speed track with fast flowing corners. Maggots and Becketts is a famous corner sequence that tests car balance and driver skill.
+
+The Italian Grand Prix is held at Monza, known as the "Temple of Speed." It features long straights and chicanes, requiring low downforce setups to maximize top speed. Ferrari fans known as "tifosi" create an incredible atmosphere.
+
+The Singapore Grand Prix is a night race held on the Marina Bay Street Circuit. The hot and humid conditions combined with 23 corners make it one of the most physically demanding races of the season.
+
+The Japanese Grand Prix is held at Suzuka Circuit, a classic figure-eight layout featuring the high-speed 130R corner and the challenging Spoon Curve. It's considered one of the best circuits for drivers.
+
+Qualifying in Formula One consists of three knockout sessions: Q1 (18 minutes), Q2 (15 minutes), and Q3 (12 minutes). The slowest drivers are eliminated after Q1 and Q2. The fastest driver in Q3 starts from pole position.
+
+Sprint races are shorter races held on Saturday that determine the starting grid for Sunday's Grand Prix. Sprint races are approximately 100 km long (about one-third of a full race distance) and award points to the top eight finishers.
+
+A pit stop involves changing tires and can take as little as 2 seconds for the tire change itself. Drivers must enter the pit lane at a speed limit (usually 60-80 km/h depending on circuit) and stop precisely in their pit box.
+
+Safety Car periods occur when track conditions are dangerous. All drivers must slow down and line up behind the Safety Car. No overtaking is allowed except to unlap yourself if given permission by race control. Virtual Safety Car (VSC) requires drivers to slow to a delta time without a physical safety car on track.
+
+Track limits are defined by white lines at the edge of the track. Drivers must keep at least one wheel within the white lines. Consistently exceeding track limits results in warnings and potential time penalties.
+
+The halo device is a titanium structure mounted above the cockpit to protect the driver's head. It was introduced in 2018 and has proven to save lives in multiple incidents.
+
+Grid penalties can be applied for various infractions including power unit component changes, causing collisions, impeding other drivers during qualifying, or accumulating penalty points on a super license.
+
+Michael Schumacher is a German former racing driver who won seven Formula One World Championships (1994, 1995, 2000, 2001, 2002, 2003, 2004). He held the record for most championships until Lewis Hamilton tied him in 2020.
+
+Ayrton Senna was a Brazilian racing driver who won three Formula One World Championships (1988, 1990, 1991). He is widely regarded as one of the greatest drivers in F1 history. He tragically died during the 1994 San Marino Grand Prix.
+
+Formula 2 (F2) and Formula 3 (F3) are junior categories that serve as stepping stones to Formula One. Drivers compete in these series to gain experience and prove their talent before moving up to F1.
+
+A super license is required to compete in Formula One. Drivers must accumulate 40 super license points over a three-year period in junior categories and meet other requirements including completing 300 km of F1 testing.
+
+The FIA (Fédération Internationale de l'Automobile) is the governing body of Formula One. They create and enforce technical and sporting regulations. The FIA also investigates incidents and applies penalties when rules are broken.
+
+Christian Horner is the Team Principal of Red Bull Racing since 2005. Under his leadership, Red Bull has won multiple Constructors' and Drivers' Championships.
+
+Toto Wolff is the Team Principal and CEO of Mercedes-AMG Petronas Formula One Team. He has been instrumental in Mercedes' dominance during the hybrid era.
+
+The budget cap in Formula One limits team spending to approximately $135 million USD per season (excluding driver salaries, marketing, and heritage activities). This was introduced in 2021 to level the playing field between big and small teams.
+
+Constructors' Championship points are awarded to teams based on both drivers' finishing positions. The team with the most points at the end of the season wins the Constructors' Championship and receives the largest prize money share.
+
+DNF stands for "Did Not Finish" - when a driver fails to complete the race due to mechanical failure, accident, or other reasons.
+
+DNS stands for "Did Not Start" - when a driver is unable to start the race.
+
+DSQ stands for "Disqualified" - when a driver is excluded from race results due to rule violations or technical infringements.
+
+Drive to Survive is a Netflix documentary series that follows Formula One teams, drivers, and races. It has significantly increased F1's popularity, especially in the United States.
+
+Formula E is a separate racing championship for electric single-seater cars. It is different from Formula One and features street circuits in major cities around the world.
+
+IndyCar is an American open-wheel racing series that competes on oval tracks, street circuits, and road courses. The cars and regulations are different from Formula One.
+
+Porpoising is an aerodynamic phenomenon where the car bounces vertically at high speed due to ground effect regulations. It became particularly problematic with the 2022 technical regulations but teams have largely resolved the issue.
+
+The 2025 F1 season features 24 races across various countries including Bahrain, Saudi Arabia, Australia, Japan, China, USA (Miami, Austin, Las Vegas), Monaco, Spain, Canada, Austria, Great Britain, Belgium, Netherlands, Italy (Monza, Imola), Singapore, Mexico, Brazil, Qatar, and Abu Dhabi.
